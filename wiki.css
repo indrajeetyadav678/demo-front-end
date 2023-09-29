@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	padding-left:50px;
+	padding-right:50px;
+}
+
+/*===============Section - 1 (header)==================*/
+
+   .header-main{
+        width:100%;
+        min-height:50px;
+    }
+
+    .header-box{
+	    height:50px;
+        display: flex;
+        justify-content: space-around;
+    }
+		
+   /*========starting of part-1 (Icon section)=======*/
+        
+    .header-icon{
+        width:27%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+            
+
+    }
+
+    .bar-icon{
+        width: 14%;
+        height: 50px;
+		background-image:url(./icon/icons-menu-bar.png);
+		background-size:cover;
+    }
+
+    .globle-icon{
+        width:21%;
+        height:50px;
+		background-image:url(./icon/wikipedia.png);
+		background-size:cover;
+		background-repeat:no-repeat
+    }
+
+    .name-img{
+        width:25%;
+        height:15px;
+        padding-left:5%;   
+    }
+	
+
+    .wiki-name-box{
+            display: block;
+            padding-left:7%;
+    }
+
+    .wikipadia1-name{
+        font-size: 20px;
+        font-family: Kristen ITC;
+    }
+
+    .wikipadia2-name{
+        font-size: 14px;
+        font-family:Kristen ITC;
+    }
+		
+/*========ending of header part-1 (Icon section)=======*/
+		
+  /*==starting of header part-2 ==*/
+
+    .header-end{
+       width:70%;
+       height:50px;
+       padding-top:8px;
+           
+
+    }
+
+    #search-input{
+        width: 40%;
+        height:33px;
+        border-radius: 1px;
+        padding-left:30px;
+        font-size: 15px;
+    }
+
+    #search-icon{
+        position:relative;
+        right:-4%;
+    }
+
+    #submit-btn{
+        width:10%;
+        height:33px;
+        position: relative;
+        right:4px;
+    }
+
+   .header-end a{
+	    margin-left:10px;
+	    font-size:19px;
+	    text-decoration:none;
+	    color:black;
+    }
+
+/*========starting of header part-2 =======*/
+
+   /*==Section - 2 (Navbar)==*/
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+	margin-top:4%;
+}
+
+        /*==Navbar-1==*/
+
+.navbar1{
+    list-style: none;
+    display: flex;
+}
+
+.navbar1 li{
+    margin-left:8%;
+}
+
+.navbar1 li a{
+    text-decoration: none;
+}
+
+       /*==Navbar-2==*/
+
+.navbar2{
+    list-style: none;
+    display: flex;
+	justify-content:space-between;
+}
+
+
+.navbar2 li{
+    margin-right: 25px;
+}
+
+.navbar2 li a{
+    text-decoration: none;
+}
+
+/*===============Section - 3==================*/
+ 
+ /*==starting of div-1==*/
+ 
+.title1-box{
+	font-size:30px;
+	text-decoration:none;
+	color:black;
+}
+
+.title2-box{
+	font-size:18px;
+	text-decoration:none;
+	color:black;
+}
+
+.title-box span{
+	font-size:27px;
+}
+
+.title-box{
+	line-height:38px;
+	width:60%;
+	height:100px;
+	border-right:brown solid 1px;
+	text-align:center;
+    padding-top:2%;	
+}
+
+/*==Ending of div-1==*/
+
+/*==starting of div-2==*/
+
+.title-box2{
+	line-height:32px;
+	width:40%;
+	height:120px;
+	border-right:brown solid 1px;
+	text-align:center;
+	padding-top:1%;
+}
+
+.title-box2 ul{
+	display:flex;
+	justify-content:space-around;
+}
+
+.title-box2 ul li a{
+	text-decoration:none;
+}
+
+/*==Ending of div-2==*/
+
+.box{
+	display:flex;
+	justify-content:center;
+
+}
+
+/*===============Section - 4==================*/
+
+/*=== starting of color table (table section-1)===*/
+
+.table-color td{
+    width:11.12%;
+    height:5px;
+    border:black solid 1px;
+}
+
+/*=== Ending of color table (table section-1)===*/
+
+/*=== starting of manubar3 table (table section-2)===*/
+
+.manubar3-table{
+    width:11.11%;
+    height:28px;
+    border:black solid 1px;
+    text-align: center;
+
+}
+
+.manubar3-table .color-1{
+    background-color:rgba(145, 160, 119, 0.2);
+}
+
+.manubar3-table .color-2{
+    background-color:rgba(186, 180, 173, 0.2);
+}
+
+.manubar3-table .color-3{
+    background-color: rgba(167, 206, 206, 0.2);
+}
+
+.manubar3-table .color-4{
+    background-color: rgba(171, 150, 119, 0.2);
+}
+
+.manubar3-table .color-5{
+    background-color: rgba(163, 121, 121, 0.2);
+}
+
+.manubar3-table .color-6{
+    background-color: rgba(203, 180, 149, 0.2);
+}
+
+.manubar3-table .color-7{
+    background-color: rgba(154, 129, 176, 0.2);
+}
+
+.manubar3-table .color-8{
+    background-color: rgba(179, 221, 223, 0.2);
+}
+
+.manubar3-table .color-9{
+    background-color: rgba(231, 191, 177, 0.2);
+}
+
+.manubar3-table td a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+}
+
+/*=== Ending of manubar3 table (table section-2) ===*/
+
+/*=== starting of table-3 ===*/
+
+.table-section-3 td{
+    width:50%;
+    height: 80px;
+    font-size: 32px;
+    padding-left: 30px;
+    background-color: rgba(245, 245, 245, 0.878);
+}
+
+/*=== Ending of table-3 ===*/
+
+
+
+
+
+
+
+
