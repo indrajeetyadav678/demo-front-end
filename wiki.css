@@ -14,22 +14,20 @@ body{
 
 /*===============Section - 1 (header)==================*/
 
-   .header-main{
-        width:100%;
-        min-height:50px;
-    }
+   
 
     .header-box{
-	    height:50px;
+		width:100%;
+	    height:70px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 		
    /*========starting of part-1 (Icon section)=======*/
         
     .header-icon{
-        width:27%;
-        height: 50px;
+        width:28%;
+        height: 70px;
         display: flex;
         justify-content: space-between;
             
@@ -38,38 +36,32 @@ body{
 
     .bar-icon{
         width: 14%;
-        height: 50px;
-		background-image:url(./icon/icons-menu-bar.png);
+        height: 70px;
+		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJFBMVEX///8AAABdXV1GRkbOzs5hYWF7e3tAQECJiYlZWVnZ2dlVVVUU5uqUAAAAqklEQVR4nO3cyw3DMAxEQUeJ//33mxZ88QJez3TwbhQIapoAAAAAAAAAAAAAAAAAALhoWb9J6xIvHJ+sES+cw4WzQoUKFSpUqFDhDfqntm0fSfsWLwQAAAAAgBbHL+uIF57hzcwZL+zfrilUqFChQoUKFTYU9s+l/W8LAAAAAABo0X8H3H/L3b9dU6hQoUKFChW+obB/auv/+xIAAAAAAAAAAAAAAAAA4LH+rxIZ2JS0aNcAAAAASUVORK5CYII=);
 		background-size:cover;
     }
 
     .globle-icon{
         width:21%;
         height:50px;
-		background-image:url(./icon/wikipedia.png);
-		background-size:cover;
-		background-repeat:no-repeat
-    }
-
-    .name-img{
-        width:25%;
-        height:15px;
-        padding-left:5%;   
     }
 	
+	.globle-icon img{
+		height:70px;
+	}
 
     .wiki-name-box{
-            display: block;
-            padding-left:7%;
+        height:70px;
+        padding-left:0%;
     }
 
     .wikipadia1-name{
-        font-size: 20px;
+        font-size: 25px;
         font-family: Kristen ITC;
     }
 
     .wikipadia2-name{
-        font-size: 14px;
+        font-size: 19px;
         font-family:Kristen ITC;
     }
 		
@@ -79,7 +71,7 @@ body{
 
     .header-end{
        width:70%;
-       height:50px;
+       height:70px;
        padding-top:8px;
            
 
@@ -89,13 +81,13 @@ body{
         width: 40%;
         height:33px;
         border-radius: 1px;
-        padding-left:30px;
+        padding-left:32px;
         font-size: 15px;
     }
 
     #search-icon{
         position:relative;
-        right:-4%;
+        right:-3%;
     }
 
     #submit-btn{
@@ -106,7 +98,7 @@ body{
     }
 
    .header-end a{
-	    margin-left:10px;
+	    margin-left:2%;
 	    font-size:19px;
 	    text-decoration:none;
 	    color:black;
@@ -119,7 +111,7 @@ body{
 .nav-box{
     display: flex;
     justify-content: space-between;
-	margin-top:4%;
+	margin-top:3%;
 }
 
         /*==Navbar-1==*/
@@ -134,6 +126,7 @@ body{
 }
 
 .navbar1 li a{
+	font-size:21px;
     text-decoration: none;
 }
 
@@ -151,6 +144,7 @@ body{
 }
 
 .navbar2 li a{
+	font-size:21px;
     text-decoration: none;
 }
 
@@ -229,7 +223,7 @@ body{
 
 .manubar3-table{
     width:11.11%;
-    height:28px;
+    height:40px;
     border:black solid 1px;
     text-align: center;
 
@@ -290,6 +284,314 @@ body{
 }
 
 /*=== Ending of table-3 ===*/
+
+/*=============== Section - 4===============*/
+
+/*=== starting of color table (table section-1)===*/
+
+.table-color td{
+    width:11.11%;
+    height:5px;
+    
+}
+
+/*=== Ending of color table (table section-1)===*/
+
+/*=== starting of manubar3 table (table section-2)===*/
+
+.manubar3-table{
+    width:11.11%;
+    height:28px;
+    border:black solid 1px;
+    text-align: center;
+
+}
+
+.manubar3-table .color-1{
+    background-color:rgba(145, 160, 119, 0.2);
+}
+
+.manubar3-table .color-2{
+    background-color:rgba(186, 180, 173, 0.2);
+}
+
+.manubar3-table .color-3{
+    background-color: rgba(167, 206, 206, 0.2);
+}
+
+.manubar3-table .color-4{
+    background-color: rgba(171, 150, 119, 0.2);
+}
+
+.manubar3-table .color-5{
+    background-color: rgba(163, 121, 121, 0.2);
+}
+
+.manubar3-table .color-6{
+    background-color: rgba(203, 180, 149, 0.2);
+}
+
+.manubar3-table .color-7{
+    background-color: rgba(154, 129, 176, 0.2);
+}
+
+.manubar3-table .color-8{
+    background-color: rgba(179, 221, 223, 0.2);
+}
+
+.manubar3-table .color-9{
+    background-color: rgba(231, 191, 177, 0.2);
+}
+
+.manubar3-table td a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+}
+
+/*=== Ending of manubar3 table (table section-2) ===*/
+
+/*=== starting of table-3 ===*/
+
+.table-section-3 td{
+    width:50%;
+    height: 80px;
+    font-size: 32px;
+    padding-left: 30px;
+    background-color: rgba(245, 245, 245, 0.878);
+    text-align: center;
+}
+
+/*=== Ending of table-3 ===*/
+
+/*=================starting of table section-4===============*/
+
+/*===starting-left-side===*/
+
+.table-section-4{
+    width:100%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.table-section-4-div1{
+    width: 55%;
+    background-color: rgba(173, 248, 215, 0.2);
+    padding-left: 13px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.table-section-4-div1 aside img{
+    float:right;
+}
+
+.section-4-left-footer a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 7px; 
+}
+
+.section-4-left-footer img{
+    width:20px;
+}
+
+/*===End-left-side===*/
+
+/*=== starting-right-side===*/
+
+.table-section-4-div2{
+    width: 45%;
+    background-color: rgba(173, 248, 215, 0.2);
+    padding-top:10px;
+}
+
+.table-section-4-div2 aside img{
+    float:right;
+}
+
+.table-section-4-div2 ul {
+    padding-left:21px;
+    padding-bottom: 1px;
+}
+
+.table-section-4-div2 ul li{
+	font-size:19px;
+}
+
+.table-section-4-div2 ul a{
+    font-size: 25px;;
+}
+
+
+/* section-4 manubar-4*/
+
+.section-4-manubar4{
+    padding-left: 8px;
+    border-top:1px dotted black;
+}
+
+.section-4-manubar4 p a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-4-manubar5{
+    padding-left: 8px;
+    border-top:1px dotted black;
+    border-bottom:1px dotted black;
+}
+
+.section-4-manubar5 a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-4-right-footer{
+    padding: 0%;
+    margin: 0%;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.section-4-right-footer a{
+    text-align: right;
+    text-decoration: none;
+}
+
+/*=========right side manubar-5===========*/
+
+/*==Ending of table section-4==*/
+
+/*======================Starting of section-5==================================*/
+
+
+
+/*======================Starting of section-6==================================*/
+
+.section-6{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.section-6 .div1{
+    width:55%;
+	height:460px;
+    margin-right: 5px;
+    background-color:rgba(198, 193, 193, 0.4);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.section-6 .div1 aside img{
+    float:right;
+}
+
+.section-6 .div2{
+    width:45%;
+    margin-left: 5px;
+    background-color:rgba(198, 193, 193, 0.4);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.section-6 .div2 aside img{
+    float:right;
+}
+
+
+/*======================Starting of section-7 ==================================*/
+
+.section-7{
+    background-color:rgba(198, 193, 193, 0.4);
+    
+    
+}
+
+.section-7 .div1 img{
+   width:100%;
+   padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.section-7 .div2{
+	width:100%;
+	height:160px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+.section-7 .div2 span{
+    font-size: 22px;
+    text-align: center;
+	padding-top:15px;
+}
+
+.section-7-footer .div1 a img{
+	width:55px;
+	
+}
+
+.section-7-footer .div2 a{
+	margin:8px;
+	font-size:20px;	
+}
+
+/*=====================================Section-8 =====================================*/
+
+#section-8 aside img{
+	float:right;
+}
+
+#section-8 div a{
+	font-size:20px;
+}
+
+/*==================================Section-9 =======================================*/
+
+#Section-9 div{
+	width:17%;
+	height:50px;
+    display: inline-block;
+    margin-left:150px;
+    margin-top: 25px;
+}
+
+
+#Section-9 aside img{
+	float:left;
+	height:50px;
+	padding:7px;	
+}
+
+#Section-9 div a{
+	font-size:20px;
+	padding:5px;
+	text-decoration:none;
+}
+
+#section-9{
+	width:100%;
+    background-color: rgba(161, 12, 12, 0.918);
+    padding:150px;
+      
+}
+
+#language_translator_manubar{
+    display: none;
+}
+
+#language_translator a:hover #language_translator_manubar{
+    display:block;
+}
+
 
 
 
